@@ -25,6 +25,7 @@ class _HomePageState extends State<HomePage> {
       extendBodyBehindAppBar: true,
       appBar: ResponsiveWidget.isSmallScreen(context) ? AppBar(
         backgroundColor: Colors.transparent,
+        elevation: 0.0,
         centerTitle: true,
         title: Text("My Web Prectice",
         style: TextStyle(fontSize: 18.0, color: whiteColor.withOpacity(0.7),
@@ -95,7 +96,7 @@ class _HomePageState extends State<HomePage> {
                             Text("World", style: TextStyle(fontSize: 16.0, color: blackColor.withOpacity(0.6),),),
                             Text("Whats", style: TextStyle(fontSize: 16.0, color: blackColor.withOpacity(0.6),),),
                             Text("Doing", style: TextStyle(fontSize: 16.0, color: blackColor.withOpacity(0.6),),),
-                            Text("Result", style: TextStyle(fontSize: 16.0, color: blackColor.withOpacity(0.6),),),
+                           // Text("Result", style: TextStyle(fontSize: 16.0, color: blackColor.withOpacity(0.6),),),
                           ],
                         ),
                       ),
