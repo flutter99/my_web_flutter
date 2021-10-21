@@ -96,7 +96,7 @@ class _HomePageState extends State<HomePage> {
                             Text("World", style: TextStyle(fontSize: 16.0, color: blackColor.withOpacity(0.6),),),
                             Text("Whats", style: TextStyle(fontSize: 16.0, color: blackColor.withOpacity(0.6),),),
                             //Text("Doing", style: TextStyle(fontSize: 16.0, color: blackColor.withOpacity(0.6),),),
-                           // Text("Result", style: TextStyle(fontSize: 16.0, color: blackColor.withOpacity(0.6),),),
+                           //Text("Result", style: TextStyle(fontSize: 16.0, color: blackColor.withOpacity(0.6),),),
                           ],
                         ),
                       ),
